@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        //Base directory to allow us import relative to the current folder
+        "baseUrl": "./",
+        
+        //Strict Type Checking
+        "strict": true,
+
+        //JSX is required to use JSX in React
+        "jsx": "react",
+
+        //Required for Webpack
+        "sourceMap": true,
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    //Dont Compile these folders
+    "exclude": [
+        "node_modules"
+    ]
+}
